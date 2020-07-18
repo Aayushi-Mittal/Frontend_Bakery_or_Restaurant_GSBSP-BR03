@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+}
+.name{
+    float:right;
+    padding:0px 30px;
+    font-family:
+    font-weight:
+}
+.right ul{
+    float:right;
+}
+.order-now{
+    color:black;
+    font-size:20px;
+    padding:10px;
+    border:solid 2px black;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px 5px;
+    background-color:rgb(255,255,252,0.5);
+}
+.order-now:hover{
+    text-decoration:none;
+    opacity:1;
+    font-weight:20px;
+}
+#box{
+    margin:25px 0px;
+    padding:20px;
+    background-color:rgb(255,255,252,0.7);
+}
+#about img{
+    margin:0px 30px;
+}
+.rotating-logo{
+    margin: 100px 0px;
+}
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+

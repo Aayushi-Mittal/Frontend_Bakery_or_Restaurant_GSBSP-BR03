@@ -1,7 +1,290 @@
+<! DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Dawat-e-Hindustan</title>
+
+        <!-- CSS File -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap Files -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#">
+                  <img src="images/logo4.png" alt="logo" style="width:50px;">
+                  <img src="images/name.png" alt="name" style="width:300px;">
+                </a>
+
+                <!-- Links -->
+                <ul class="navbar-nav" class="right">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reservation">Reservation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blogs">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#donate">Donate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+            </nav>
+
+            <!-- extra margin for fixed navbar -->
+            <div style="margin:60px"></div>
+
+    <!-- Carousal -->
+        <div class="view" style="background-image: url('images/bg/bg6.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <center>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/bg/bg5.jpeg" alt="Los Angeles" width="1100" height="500">  
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/c6.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <a href="#menu" class="order-now">Order Now</a>
+                <p>Traditional Indian Thali!</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/c5.jpeg" alt="New York" width="1100" height="500">
+              <div class="carousel-caption">
+                <a href="#menu" class="order-now">Order Now</a><br>
+                <p>Kuch meetha ho jae?</p>
+              </div>   
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        </center>
+        </div>
+
+        <!-- About section -->
+        <div id="about" style="background-image: url('images/bg/bg8.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-4" id="box">
+                    <h2>About Us</h3>
+                    <p>From Chole bhature of Dehli to Dosa of South,<br> From Rosogolla of From Lassi of Punjab Bengal to Dhokla of Gujarat, to Biryani of Hyderabad, From Vada pav of Mumbai to Puchka of Kolkata, From Dal bati churma of Rajasthan to Litti chokha of Bihar, India is all about mouth watering cuisines.
+                    </p>
+                    <p>
+                    No wonder why Indian cuisine always tops the foodies list worldwide.And these are not just food but the emotions of people. Visit us or order online and experience Maa ke haath ka swaad! ❤ 
+                    </p>
+                </div>
+                <div class="col-4">
+                    <center class="rotating-logo">
+                    <img src="images/logo2.png" alt="logo" class="rotate linear infinite" >
+                    <center>
+                </div>
+                <div class="col-4" id="box">
+                    <h2>Specialities</h2>
+                    <ul>
+                        <li>100% Vegetarian Food</li>
+                        <li>Range of Food Items</li>
+                        <li>Quality Assurance</li>
+                        <li>Hygine and Cleanliness Assurance</li>
+                        <li>Reasonable Cost</li>
+                        <li>Good Service</li>
+                        <li>Convinient Location</li>
+                        <li>Free Delivery (upto 100km)</li>
+                    <ul>
+                    <br>
+                    <h3>Cheers to your Health! 🍹</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Menu -->
+        <div id="menu" style="background-image: url('images/bg/bg9.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="container-fluid">
+                <h1>Menu</h1>
+                    <h1>Snacks</h1>
+                        <table>
+                            <tr>
+                                <td>Pav Bhaji</td>
+                                <td>120/-</td>
+                            </tr>
+                            <tr>
+                                <td>Chole Bhature</td>
+                                <td>80/-</td>
+                            </tr>
+                            <tr>
+                                <td>Kachori Sabzi</td>
+                                <td>60/-</td>
+                            </tr>
+                        </table>
+                    <h1>Starters</h1>
+                        <table>
+                            <tr>
+                                <td>Samosas</td>
+                                <td>15/-</td>
+                            </tr>
+                            <tr>
+                                <td>Pani-Puri</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Pakoras</td>
+                                <td>70/-</td>
+                            </tr>
+                            <tr>
+                                <td>Papri Chat</td>
+                                <td>80/-</td>
+                            </tr>
+                            <tr>
+                                <td>Tandoori Paneer Tikka</td>
+                                <td>220/-</td>
+                            </tr>
+                        </table>
+                    <h1>Soups and Salad</h1>
+                        <table>
+                            <tr>
+                                <td>Tomato Soup</td>
+                                <td>89/-</td>
+                            </tr>
+                        </table>
+                    <h1>Sabziyan</h1>
+                        <table>
+                            <tr>
+                                <td>Kadhai Paneer</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Shahi Paneer</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Malai Kofta</td>
+                                <td>210/-</td>
+                            </tr>
+                            <tr>
+                                <td>Dal Makhani</td>
+                                <td>199/-</td>
+                            </tr>
+                            <tr>
+                                <td>Rajma</td>
+                                <td>141/-</td>
+                            </tr>
+                            <tr>
+                                <td>Chhole</td>
+                                <td>141/-</td>
+                            </tr>
+                        </table>
+                    <h1>Breads</h1>
+                        <table>
+                            <tr>
+                                <td>Papad</td>
+                                <td>15/-</td>
+                            </tr>
+                            <tr>
+                                <td>Roomali Roti</td>
+                                <td>17/-</td>
+                            </tr>
+                            <tr>
+                                <td>Tandoori Roti</td>
+                                <td>30/-</td>
+                            </tr>
+                            <tr>
+                                <td>Butter Naan</td>
+                                <td>58/-</td>
+                            </tr>
+                            <tr>
+                                <td>Stuffed Parantha</td>
+                                <td>53/-</td>
+                            </tr>
+                        </table>
+                    <h1>Rice/Raita</h1>
+                        <table>
+                            <tr>
+                                <td>Boondi Raita</td>
+                                <td>102/-</td>
+                            </tr>
+                            <tr>
+                                <td>Mix-Veg Pulao</td>
+                                <td>161/-</td>
+                            </tr>
+                            <tr>
+                                <td>Dum-Biryani</td>
+                                <td>220/-</td>
+                            </tr>
+                        </table>
+                    <h1>Deserts</h1>
+                        <table>
+                            <tr>
+                                <td>Ras-Malai</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Gulab Jamun</td>
+                                <td>60/-</td>
+                            </tr>
+                            <tr>
+                                <td>Jalebi</td>
+                                <td>65/-</td>
+                            </tr>
+                            <tr>
+                                <td>Kulfi</td>
+                                <td>80/-</td>
+                            </tr>
+                        </table>
+                    <h1>Beverages</h1>
+                        <table>
+                            <tr>
+                                <td>Tea</td>
+                                <td>25/-</td>
+                            </tr>
+                            <tr>
+                                <td>Coffee</td>
+                                <td>60/-</td>
+                            </tr>
+                            <tr>
+                                <td>Fresh Juices</td>
+                                <td>65/-</td>
+                            </tr>
+                            <tr>
+                                <td>Shakes</td>
+                                <td>80/-</td>
+                            </tr>
+                        </table>
+            </div>
+        </div>
+        
+              
     </body>
 </html>
