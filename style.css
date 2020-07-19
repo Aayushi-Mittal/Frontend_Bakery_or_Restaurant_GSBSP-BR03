@@ -162,6 +162,10 @@ td{
     background-color:rgb(255,255,252,0.7);
     font-family:'Pacifico', cursive;
 }
+#reservation h1:hover{
+    font-size:50px;
+    text-decoration:underline;
+}
 #blogs{
     padding:30px 30px;
 }
@@ -171,9 +175,16 @@ td{
     text-align:center;
     margin:30px;
 }
+#blogs h1:hover{
+    font-size:50px;
+    text-decoration:underline;
+}
 #blogs h4{
     font-family: 'Cookie', cursive;
     font-size:30px;
+}
+#blogs h4:hover{
+    text-decoration:underline;
 }
 #blogs p{
     font-family: 'Handlee', cursive;
@@ -184,6 +195,9 @@ td{
 #donate h5{
     font-family:'Pacifico', cursive;
     font-size:30px;
+}
+#donate h5:hover{
+    text-decoration:underline;
 }
 #donate p{
     font-family: 'Handlee', cursive;
@@ -199,8 +213,14 @@ td{
 #contact h1{
     font-family: 'Monoton', cursive;
 }
+#contact h1:hover{
+    text-decoration:underline;
+}
 #contact h3{
     font-family: 'Monoton', cursive;
+}
+#contact h3:hover{
+    text-decoration:underline;
 }
 #contact .col-12{
     background-color:rgb(0,0,0,0.8);
