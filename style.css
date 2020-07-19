@@ -47,4 +47,41 @@ body{
     transform: rotate(359deg);
   }
 }
+#menu{
+    padding:40px;
+}
+#menu h2{
+    font-size:50px;
+    text-align:center;   
+}
+#box1{
+    background-color:rgb(255,255,252,0.3);
+    padding:20px;
+}
+#menu table{
+    background-color:rgb(255,255,252,0.3);
+    border:solid 1px grey;
+    padding:20px;
+}
 
+#menu table:hover{
+    background-color:rgb(255,255,252,0.7);
+    border:solid 2px white;
+    padding:20px;
+}
+.menu-item{
+    width:200px;
+    height:200px;
+    border:dashed 1px black;
+    border-radius:240px;
+    float:right;
+    margin:20px 10px;
+    opacity:0.9;
+}
+.menu-item:hover{
+    border:solid 2px white;
+    opacity:1.0;
+}
+.t1{
+    background-color:rgb(255,255,252,0.7);
+}
