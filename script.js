@@ -1,1 +1,1 @@
-
+alert("Welcome to Dawat-e-Hindustan");

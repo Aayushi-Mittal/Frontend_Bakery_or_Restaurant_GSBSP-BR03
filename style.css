@@ -1,6 +1,9 @@
 body{
     margin:0px;
 }
+
+
+
 .name{
     float:right;
     padding:0px 30px;
@@ -24,10 +27,41 @@ body{
     opacity:1;
     font-weight:20px;
 }
+
+nav li{
+    font-family: 'Pacifico', cursive;
+    font-size:18px;
+}
+nav li:hover{
+    font-family: 'Pacifico', cursive;
+    text-decoration:underline;
+    font-size:20px;
+}
+
+marquee{
+    font-family: 'Dancing Script', cursive;
+    font-size:18px;
+}
+
 #box{
     margin:25px 0px;
     padding:20px;
     background-color:rgb(255,255,252,0.7);
+}
+#about h2{
+    font-family: 'Pacifico', cursive;
+}
+#about h2:hover{
+    text-decoration:underline;
+    font-size:30px;
+}
+#about p{
+    font-family: 'Cookie', cursive;
+    font-size:22px;
+}
+#about li{
+    font-family: 'Cookie', cursive;
+    font-size:22px;
 }
 #about img{
     margin:0px 30px;
@@ -51,8 +85,26 @@ body{
     padding:40px;
 }
 #menu h2{
+    font-family: 'Pacifico', cursive;
     font-size:50px;
     text-align:center;   
+}
+#menu h2:hover{
+    font-size:60px;
+    text-decoration:underline;
+}
+}#menu h1{
+    padding:10px;
+    font-family:'Pacifico', cursive;
+    text-align:center;   
+}
+#menu h1:hover{
+    text-decoration:underline;
+}
+td{
+    padding:5px;
+    font-family: 'Handlee', cursive;
+    font-weight:30px;
 }
 #box1{
     background-color:rgb(255,255,252,0.3);
@@ -75,7 +127,7 @@ body{
     border:dashed 1px black;
     border-radius:240px;
     float:right;
-    margin:20px 10px;
+    margin:20px auto;
     opacity:0.9;
 }
 .menu-item:hover{
@@ -87,29 +139,72 @@ body{
     padding:20px;
 }
 #testimonials{
-    padding:50px;
+    padding:30px 30px;
+}
+#testimonials h1{
+    font-family: 'Pacifico', cursive;
+    font-size:40px;
+    text-align:center;
+    background-color:rgb(0,0,0,0.7);   
+}
+#testimonials h1:hover{
+    font-size:50px;
+    text-decoration:underline;
+}
+#testimonials p{
+    font-family: 'Rancho', cursive;
+    font-size:25px;
 }
 #reservation{
-    padding:50px;
+    padding:auto 50px;
 }
 #reservation h1{
     background-color:rgb(255,255,252,0.7);
+    font-family:'Pacifico', cursive;
 }
 #blogs{
-    padding:50px;
+    padding:30px 30px;
 }
 #blogs h1{
     background-color:rgb(0,0,0,0.7);
+    font-family:'Pacifico', cursive;
     text-align:center;
     margin:30px;
+}
+#blogs h4{
+    font-family: 'Cookie', cursive;
+    font-size:30px;
+}
+#blogs p{
+    font-family: 'Handlee', cursive;
+}
+#donate{
+    padding:30px;
+}
+#donate h5{
+    font-family:'Pacifico', cursive;
+    font-size:30px;
+}
+#donate p{
+    font-family: 'Handlee', cursive;
+}
+#donate small{
+    font-family: 'Dancing Script', cursive;
+    font-size:18px;
 }
 #contact{
     padding:50px;
     color:white;
-    background-color:rgb(0,0,0,0.7);
 }
-#contact .contact1{
-    background-color:rgb(0,0,0,0.7);
+#contact h1{
+    font-family: 'Monoton', cursive;
+}
+#contact h3{
+    font-family: 'Monoton', cursive;
+}
+#contact .col-12{
+    background-color:rgb(0,0,0,0.8);
+    padding:10px;
 }
 footer{
     color:white;
