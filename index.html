@@ -11,6 +11,8 @@
 
         <!-- CSS File -->
         <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- JAVASCRIPT File -->
         <script type="text/javascript" src="script.js"></script>
 
@@ -28,15 +30,25 @@
 
         <!-- Nav Bar -->
 
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top">
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+                <div class="topnav" id="myTopnav">
                 <!-- Brand/logo -->
-                <a class="navbar-brand" href="#">
+                <!--<a class="navbar-brand" href="#">
                   <img src="images/logo4.png" alt="logo" style="width:50px;">
                   <img src="images/name.png" alt="name" style="width:300px;">
-                </a>
+                </a>-->
 
                 <!-- Links -->
+                <center>
                 <ul class="navbar-nav" class="right">
+                  <li class="nav-item">
+                    
+                    <a class="nav-link" class="active" href="#"><img src="images/logo4.png" alt="logo" style="width:50px;"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/name.png" alt="name" style="width:300px;"></a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About Us</a>
                   </li>
@@ -58,11 +70,14 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+                </center>
                 </ul>
+            </div>
             </nav>
 
-            <!-- extra margin for fixed navbar -->
-            <div style="margin:60px"></div>
 
     <!-- Carousal -->
         <div class="view" style="background-image: url('images/bg/bg6.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
@@ -75,17 +90,32 @@
           </ul>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/bg/bg5.jpeg" alt="header-image" width="1100" height="500">  
+              <picture>
+                  <source srcset="images/bg/bg11.jpeg" media="(min-width: 1400px)">
+                  <source srcset="images/bg/bg5.jpeg" media="(min-width: 768px)">
+                  <source srcset="images/bg/bg5.jpeg" media="(min-width: 576px)"> 
+                  <img srcset="images/bg/bg11.jpeg" alt="header-image" class="d-block img-fluid">
+              </picture> 
             </div>
             <div class="carousel-item">
-              <img src="images/carousel/c6.jpg" alt="thali" width="1100" height="500">
+              <picture>
+                  <source srcset="images/carousel/c1.jpg" media="(min-width: 1400px)">
+                  <source srcset="images/carousel/c6.jpg" media="(min-width: 768px)">
+                  <source srcset="images/carousel/c6.jpg"" media="(min-width: 576px)"> 
+                  <img srcset="images/carousel/c1.jpg" alt="thali" class="d-block img-fluid">
+              </picture> 
               <div class="carousel-caption">
                 <a href="#menu" class="order-now" style="font-family:pacifico">Order Now</a>
                 <p style="font-family:pacifico; padding-top:20px;">Traditional Indian Thali!</p>
               </div>   
             </div>
             <div class="carousel-item">
-              <img src="images/carousel/c5.jpeg" alt="sweets" width="1100" height="500">
+              <picture>
+                  <source srcset="images/carousel/c2.jpg" media="(min-width: 1400px)">
+                  <source srcset="images/carousel/c5.jpg" media="(min-width: 768px)">
+                  <source srcset="images/carousel/c5.jpg"" media="(min-width: 576px)"> 
+                  <img srcset="images/carousel/c2.jpg" alt="thali" class="d-block img-fluid">
+              </picture>
               <div class="carousel-caption">
                 <a href="#menu" class="order-now" style="font-family:pacifico">Order Now</a><br>
                 <p style="font-family:pacifico; padding-top:20px;">Kuch meetha ho jae?</p>
@@ -482,7 +512,7 @@
             <div class="row">
               <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-4">
                   <h1>LOCATION</h1>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1251639916964!2d77.20753460815449!3d28.626010595416453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd24f8845b47%3A0xc31d7dba181b70c9!2sSri%20Bangla%20Sahib%20Gurudwara!5e0!3m2!1sen!2sin!4v1595148816903!5m2!1sen!2sin" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1251639916964!2d77.20753460815449!3d28.626010595416453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd24f8845b47%3A0xc31d7dba181b70c9!2sSri%20Bangla%20Sahib%20Gurudwara!5e0!3m2!1sen!2sin!4v1595148816903!5m2!1sen!2sin" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                   <p>
                     5008, Jai Singh Marg<br>
                     ABC Road Area, Connaught Place<br>
